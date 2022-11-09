@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>995865801459-pv0d91n3u8rme8kt8l6574uvb1987mu9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.995865801459-pv0d91n3u8rme8kt8l6574uvb1987mu9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWarsYdBLbdePZ94ng5Eco8o0UiM8oWG4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>995865801459</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cemkupeli.TarihAvi</string>
+	<key>PROJECT_ID</key>
+	<string>deneme-4b31e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>deneme-4b31e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:995865801459:ios:3b4e7261b4f3e128573d86</string>
+	<key>DATABASE_URL</key>
+	<string>https://deneme-4b31e.firebaseio.com</string>
+</dict>
+</plist>
