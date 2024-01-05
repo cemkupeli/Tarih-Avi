@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tarih Avı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="35" translatesAutoresizingMaskIntoConstraints="NO" id="hhH-Aw-aXk">
+                                <rect key="frame" x="86" y="150" width="203" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="DdZ-LL-TBC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="scroll" translatesAutoresizingMaskIntoConstraints="NO" id="Hm2-uw-cNb">
+                                <rect key="frame" x="37" y="269" width="300" height="230"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="1"/>
+                        <constraints>
+                            <constraint firstItem="Hm2-uw-cNb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4Om-jo-DFv"/>
+                            <constraint firstItem="hhH-Aw-aXk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Anv-JP-d6w"/>
+                            <constraint firstItem="Hm2-uw-cNb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="Dfc-52-GAk"/>
+                            <constraint firstItem="hhH-Aw-aXk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="Mr1-f5-sGB"/>
+                            <constraint firstItem="Hm2-uw-cNb" firstAttribute="top" secondItem="hhH-Aw-aXk" secondAttribute="bottom" constant="59" id="VQM-NP-f86"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hm2-uw-cNb" secondAttribute="bottom" constant="168" id="o6y-hg-MQ6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scroll" width="512" height="512"/>
+        <namedColor name="1">
+            <color red="0.10196078431372549" green="0.32549019607843138" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
